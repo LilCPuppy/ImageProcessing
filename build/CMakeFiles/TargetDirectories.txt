@@ -1,0 +1,3 @@
+/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/rebuild_cache.dir
+/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/edit_cache.dir
+/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/main.dir
