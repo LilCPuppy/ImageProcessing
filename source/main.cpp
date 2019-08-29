@@ -18,15 +18,20 @@ int main()
 {
 
 	shared_ptr<Mat> im = make_shared<Mat>(imread("../inImages/Rice.png"));
-	shared_ptr<Mat> seg = make_shared<Mat>(Mat::zeros(im->size(), im->type()));
-	vector<vector<int>> seeds = {{0, 0}, {100, 100}, {200, 200}};
+	// shared_ptr<Mat> seg = make_shared<Mat>(Mat::zeros(im->size(), im->type()));
+	// vector<vector<int>> seeds = {{0, 0}, {100, 100}, {200, 200}};
 
-	im = saltPepperNoise(im, .1);
+	im = saltPepperNoise(im, .40);
 
-	seg = regionBuildingComp(im, seg, seeds, 5.0, RED);
+	shared_ptr<Mat> denoisedIm = BinDenoise(im, {0, 255}, 0.40, 4);
 
-	showImage(im, "riceyboi");
-	showImage(seg, "riceyBoi");
+	showImage(im, "noisy rice");
+	showImage(denoisedIm, "pointers test");
+
+	// seg = regionBuildingComp(im, seg, seeds, 5.0, RED);
+
+	// showImage(im, "riceyboi");
+	// showImage(seg, "riceyBoi");
 	waitKey(0);
 	
 	return 1;

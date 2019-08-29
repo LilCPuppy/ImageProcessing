@@ -20,3 +20,5 @@ using namespace std;
 
 shared_ptr<Mat> saltPepperNoise(shared_ptr<Mat> im, double percent = .5,
 	int low = 0, int high = 255);
+
+shared_ptr<Mat> BinDenoise(shared_ptr<Mat> image, vector <int> bins, double delta, int windowSize);
