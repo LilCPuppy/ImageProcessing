@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/brknight/Documents/ImageProcessing/source/Noise.cpp" "/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/main.dir/source/Noise.cpp.o"
-  "/Users/brknight/Documents/ImageProcessing/source/Segmentation.cpp" "/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/main.dir/source/Segmentation.cpp.o"
-  "/Users/brknight/Documents/ImageProcessing/source/Tools.cpp" "/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/main.dir/source/Tools.cpp.o"
-  "/Users/brknight/Documents/ImageProcessing/source/main.cpp" "/Users/brknight/Documents/ImageProcessing/build/CMakeFiles/main.dir/source/main.cpp.o"
+  "/Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Noise.cpp.o"
+  "/Users/brknight/Documents/GitHub/ImageProcessing/source/Segmentation.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Segmentation.cpp.o"
+  "/Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Tools.cpp.o"
+  "/Users/brknight/Documents/GitHub/ImageProcessing/source/main.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
