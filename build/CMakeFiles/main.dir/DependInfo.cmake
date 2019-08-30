@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/brknight/Documents/GitHub/ImageProcessing/source/Multiscale.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Multiscale.cpp.o"
   "/Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Noise.cpp.o"
   "/Users/brknight/Documents/GitHub/ImageProcessing/source/Segmentation.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Segmentation.cpp.o"
   "/Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.cpp" "/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles/main.dir/source/Tools.cpp.o"

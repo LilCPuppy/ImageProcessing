@@ -57,9 +57,22 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/source/Multiscale.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/source/Multiscale.cpp.o: ../source/Multiscale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/source/Multiscale.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/Multiscale.cpp.o -c /Users/brknight/Documents/GitHub/ImageProcessing/source/Multiscale.cpp
+
+CMakeFiles/main.dir/source/Multiscale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/source/Multiscale.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brknight/Documents/GitHub/ImageProcessing/source/Multiscale.cpp > CMakeFiles/main.dir/source/Multiscale.cpp.i
+
+CMakeFiles/main.dir/source/Multiscale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/source/Multiscale.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brknight/Documents/GitHub/ImageProcessing/source/Multiscale.cpp -o CMakeFiles/main.dir/source/Multiscale.cpp.s
+
 CMakeFiles/main.dir/source/Noise.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/source/Noise.cpp.o: ../source/Noise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/source/Noise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/source/Noise.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/Noise.cpp.o -c /Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.cpp
 
 CMakeFiles/main.dir/source/Noise.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/main.dir/source/Noise.cpp.s: cmake_force
 
 CMakeFiles/main.dir/source/Segmentation.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/source/Segmentation.cpp.o: ../source/Segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/source/Segmentation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/source/Segmentation.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/Segmentation.cpp.o -c /Users/brknight/Documents/GitHub/ImageProcessing/source/Segmentation.cpp
 
 CMakeFiles/main.dir/source/Segmentation.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/main.dir/source/Segmentation.cpp.s: cmake_force
 
 CMakeFiles/main.dir/source/Tools.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/source/Tools.cpp.o: ../source/Tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/source/Tools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/source/Tools.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/Tools.cpp.o -c /Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.cpp
 
 CMakeFiles/main.dir/source/Tools.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/main.dir/source/Tools.cpp.s: cmake_force
 
 CMakeFiles/main.dir/source/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/source/main.cpp.o: ../source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/source/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/source/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/main.cpp.o -c /Users/brknight/Documents/GitHub/ImageProcessing/source/main.cpp
 
 CMakeFiles/main.dir/source/main.cpp.i: cmake_force
@@ -111,6 +124,7 @@ CMakeFiles/main.dir/source/main.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/source/Multiscale.cpp.o" \
 "CMakeFiles/main.dir/source/Noise.cpp.o" \
 "CMakeFiles/main.dir/source/Segmentation.cpp.o" \
 "CMakeFiles/main.dir/source/Tools.cpp.o" \
@@ -119,6 +133,7 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main: CMakeFiles/main.dir/source/Multiscale.cpp.o
 main: CMakeFiles/main.dir/source/Noise.cpp.o
 main: CMakeFiles/main.dir/source/Segmentation.cpp.o
 main: CMakeFiles/main.dir/source/Tools.cpp.o
@@ -173,7 +188,7 @@ main: /usr/local/lib/libopencv_photo.4.1.0.dylib
 main: /usr/local/lib/libopencv_imgproc.4.1.0.dylib
 main: /usr/local/lib/libopencv_core.4.1.0.dylib
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brknight/Documents/GitHub/ImageProcessing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

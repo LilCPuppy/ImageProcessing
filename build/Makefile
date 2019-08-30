@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+source/Multiscale.o: source/Multiscale.cpp.o
+
+.PHONY : source/Multiscale.o
+
+# target to build an object file
+source/Multiscale.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/Multiscale.cpp.o
+.PHONY : source/Multiscale.cpp.o
+
+source/Multiscale.i: source/Multiscale.cpp.i
+
+.PHONY : source/Multiscale.i
+
+# target to preprocess a source file
+source/Multiscale.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/Multiscale.cpp.i
+.PHONY : source/Multiscale.cpp.i
+
+source/Multiscale.s: source/Multiscale.cpp.s
+
+.PHONY : source/Multiscale.s
+
+# target to generate assembly for a file
+source/Multiscale.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/Multiscale.cpp.s
+.PHONY : source/Multiscale.cpp.s
+
 source/Noise.o: source/Noise.cpp.o
 
 .PHONY : source/Noise.o
@@ -240,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... source/Multiscale.o"
+	@echo "... source/Multiscale.i"
+	@echo "... source/Multiscale.s"
 	@echo "... source/Noise.o"
 	@echo "... source/Noise.i"
 	@echo "... source/Noise.s"

@@ -5,6 +5,7 @@
 #include "Segmentation.h"
 #include "Tools.h"
 #include "Noise.h"
+#include "Multiscale.h"
 
 #define RED 0
 #define GREEN 1
@@ -17,17 +18,19 @@ using namespace std;
 int main()
 {
 
-	shared_ptr<Mat> im = make_shared<Mat>(imread("../inImages/Rice.png"));
+	// shared_ptr<Mat> im = make_shared<Mat>(imread("../inImages/Rice.png"));
 	// shared_ptr<Mat> seg = make_shared<Mat>(Mat::zeros(im->size(), im->type()));
-	// vector<vector<int>> seeds = {{0, 0}, {100, 100}, {200, 200}};
+	// vector<vector<int>> seeds = {{0, 0}, {100, 100}, {200, 200}}
 
-	im = saltPepperNoise(im, .40);
+	shared_ptr<Mat> image = make_shared<Mat>(imread("../inImages/barbara.png"));
 
-	shared_ptr<Mat> denoisedIm = BinDenoise(im, {0, 255}, 0.40, 4);
+	printf("image->size {%d, %d}\n", image->rows, image->cols);
+	// Mat saltyImage = saltPepperNoise(image, .50, 0, 255);
 
-	showImage(im, "noisy rice");
-	showImage(denoisedIm, "pointers test");
+	vector<shared_ptr<Mat>> uIms, vIms;
+	vector <vector<shared_ptr<Mat>>> out = MultiScaleDecomposition(image, 0.001, 12, 1, uIms, vIms);
 
+	showImage(out[0][0], "no way this work");
 	// seg = regionBuildingComp(im, seg, seeds, 5.0, RED);
 
 	// showImage(im, "riceyboi");

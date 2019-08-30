@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.cpp
-Noise.h
-/Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.h
+/Users/brknight/Documents/GitHub/ImageProcessing/source/Multiscale.h
+cstdlib
+-
+cmath
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+random
+-
+Tools.h
+/Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.h
+tuple
+-
 
 /Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.h
 cstdlib
@@ -28,10 +42,6 @@ memory
 Tools.h
 /Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.h
 
-/Users/brknight/Documents/GitHub/ImageProcessing/source/Segmentation.cpp
-Segmentation.h
-/Users/brknight/Documents/GitHub/ImageProcessing/source/Segmentation.h
-
 /Users/brknight/Documents/GitHub/ImageProcessing/source/Segmentation.h
 cstdlib
 -
@@ -47,10 +57,6 @@ random
 -
 memory
 -
-
-/Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.cpp
-Tools.h
-/Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.h
 
 /Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.h
 cstdlib
@@ -83,6 +89,8 @@ Tools.h
 /Users/brknight/Documents/GitHub/ImageProcessing/source/Tools.h
 Noise.h
 /Users/brknight/Documents/GitHub/ImageProcessing/source/Noise.h
+Multiscale.h
+/Users/brknight/Documents/GitHub/ImageProcessing/source/Multiscale.h
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
